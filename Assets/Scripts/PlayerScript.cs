@@ -1,4 +1,8 @@
-﻿using UnityEngine;
+﻿//This script controls the translation of the sprite give to
+
+//Borrowed from Blayne Mayfield
+
+using UnityEngine;
 using System.Collections;
 
 public class PlayerScript : MonoBehaviour {

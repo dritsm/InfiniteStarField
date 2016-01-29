@@ -1,4 +1,9 @@
-﻿using UnityEngine;
+﻿//This script creates an infinitely scrolling background
+//on a given quad
+
+//Solution created from a mix of many authors
+
+using UnityEngine;
 using System.Collections;
 
 public class Scroll : MonoBehaviour 

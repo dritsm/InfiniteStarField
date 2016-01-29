@@ -1,4 +1,10 @@
-﻿using UnityEngine;
+﻿//This script controls the degree of rotation of an object
+//based on the horizontal axis and it will then transition back
+//to default positon smoothly
+
+//Created by KODY BUSS
+
+using UnityEngine;
 using System.Collections;
 
 public class RotationScript : MonoBehaviour {
@@ -9,8 +15,6 @@ public class RotationScript : MonoBehaviour {
 	public float angleSensitivityHor = 9.0f;
 	//public float minimumHor = -45.0f;//special case variables
 	//public float maximumHor = 45.0f;
-
-
 
 	// Use this for initialization
 	void Start () {
