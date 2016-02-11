@@ -23,7 +23,6 @@ public class SmokeFade : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-		
 		float fade = Mathf.SmoothDamp (spriteRenderer.color.a, 0f, ref fadeSpeed, fadeTime); //ref means value is passed in and will change over time to fade out
 		spriteRenderer.color = new Color (1f, 1f, 1f, fade);			
 	}

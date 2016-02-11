@@ -3,13 +3,11 @@ using System.Collections;
 
 public class AsteroidSpawn : MonoBehaviour 
 {
-
-	public float speed = 5f;
 	float time = 0;
 
 	public GameObject asteroid;
 
-	private static float WAIT_TIME = .55f;
+	private static float WAIT_TIME = .72f;
 	private Transform AsteroidSpawnLocation;
 
 	GameObject asteroidClone;
@@ -31,6 +29,8 @@ public class AsteroidSpawn : MonoBehaviour
 			asteroidClone =	Instantiate (asteroid, transform.position, transform.rotation) as GameObject;
 			time = 0;
 		}
+
+
 
 	}
 }

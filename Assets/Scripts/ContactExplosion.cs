@@ -4,7 +4,6 @@ using System.Collections;
 public class ContactExplosion : MonoBehaviour 
 {
 	
-
 	public GameObject explosion;
 	GameObject explosionClone;
 
