@@ -45,11 +45,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\GameOverSound.cs" />
      <Compile Include="Assets\Scripts\AsteroidDetector.cs" />
      <Compile Include="Assets\Scripts\AsteroidSpawn.cs" />
      <Compile Include="Assets\Scripts\ContactExplosion.cs" />
      <Compile Include="Assets\Scripts\ExplosionInstant.cs" />
      <Compile Include="Assets\Scripts\LifeManager.cs" />
+     <Compile Include="Assets\Scripts\LiveExploder.cs" />
+     <Compile Include="Assets\Scripts\MainMenu.cs" />
      <Compile Include="Assets\Scripts\PlayerScript.cs" />
      <Compile Include="Assets\Scripts\RandomSpawnX.cs" />
      <Compile Include="Assets\Scripts\RotationScript.cs" />
@@ -57,6 +60,7 @@
      <Compile Include="Assets\Scripts\Scroll.cs" />
      <Compile Include="Assets\Scripts\SmokeFade.cs" />
      <Compile Include="Assets\Scripts\UIScript.cs" />
+     <Compile Include="Assets\SecondGameOverScript.cs" />
      <None Include="Assets\AssetContributions.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

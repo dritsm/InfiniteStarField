@@ -3,19 +3,17 @@ using UnityEngine.UI;
 using System.Collections;
 
 public class LifeManager : MonoBehaviour {
+
 	public int startingLives;
 	public string mainMenu;
-	public float waitAfterGameOver = 4f;
+	public float fadeSpeed = 0f;
+	public float fadeTime = .5f;
 
 	public GameObject gameOverScreen;
-
 	public AudioSource lifeLostSound;
-	public AudioSource losingSound;
-	public AudioSource burningSound;
-
 
 	private int lifeCounter;
-	private bool gameOver = false;
+	private bool activated = false;
 	private Text theText;
 
 
@@ -23,8 +21,6 @@ public class LifeManager : MonoBehaviour {
 	void Start () {
 
 		lifeLostSound = GetComponent<AudioSource> ();
-		losingSound = GetComponent<AudioSource> ();
-		burningSound = GetComponent<AudioSource> ();
 
 		theText = GetComponent<Text> ();
 		lifeCounter = startingLives;
@@ -34,32 +30,27 @@ public class LifeManager : MonoBehaviour {
 		if (lifeCounter < 1) 
 		{
 			gameOverScreen.SetActive (true);
-			burningSound.Play ();
 
 			Time.timeScale = 0;
 		}
 
+		if (activated == true) {
+			gameObject.SetActive (true);
+		}
+
 		theText.text = "x " + lifeCounter;
-
-		if (gameOverScreen.activeSelf)
-		{
-			waitAfterGameOver -= Time.deltaTime;
-		}
-
-		if (waitAfterGameOver < 0) 
-		{
-			Application.LoadLevel (mainMenu);
-		}
-		
 	}
 
 	public void takeLife()
 	{
-		if (lifeCounter > 0 &&!gameOver)
+		if (lifeCounter > 0)
 		{
+			activated = true;
 			lifeCounter--;
 			lifeLostSound.Play ();
-
 		}
 	}
+		
+
+
 }

@@ -11,11 +11,15 @@ public class Scroll : MonoBehaviour
 	private float currentOffset = 0;
 	public float speed = .1f;
 
+	void Start() {
+		currentOffset += Time.deltaTime * speed; 
+	}
+
 	// Update is called once per frame
 	void Update ()
 	{
-		currentOffset += Time.deltaTime * speed;  
-		if (currentOffset > 1.0f) 
+		currentOffset += Time.deltaTime * speed;
+		if (currentOffset > 1.0f)
 		{
 			currentOffset -= 1.0f;
 		}   
