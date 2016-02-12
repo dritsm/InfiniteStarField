@@ -48,6 +48,7 @@
      <Compile Include="Assets\Scripts\AsteroidDetector.cs" />
      <Compile Include="Assets\Scripts\AsteroidSpawn.cs" />
      <Compile Include="Assets\Scripts\ContactExplosion.cs" />
+     <Compile Include="Assets\Scripts\ExplosionInstant.cs" />
      <Compile Include="Assets\Scripts\LifeManager.cs" />
      <Compile Include="Assets\Scripts\PlayerScript.cs" />
      <Compile Include="Assets\Scripts\RandomSpawnX.cs" />

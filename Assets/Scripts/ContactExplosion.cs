@@ -29,7 +29,7 @@ public class ContactExplosion : MonoBehaviour
 			
 			explosionClone = Instantiate (explosion, transform.position, transform.rotation) as GameObject;
 
-			Destroy (explosionClone, 1f);
+			//Destroy (explosionClone, 1f);
 			Destroy (gameObject);
 		}
 	}
