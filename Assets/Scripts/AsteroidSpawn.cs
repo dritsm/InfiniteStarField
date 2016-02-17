@@ -7,7 +7,7 @@ public class AsteroidSpawn : MonoBehaviour
 
 	public GameObject asteroid;
 
-	private static float WAIT_TIME = .72f;
+	private static float WAIT_TIME = .77f;
 	private Transform AsteroidSpawnLocation;
 
 	GameObject asteroidClone;

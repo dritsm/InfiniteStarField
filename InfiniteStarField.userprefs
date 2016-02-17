@@ -1,9 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\LifeManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AsteroidSpawn.cs">
     <Files>
-      <File FileName="Assets\Scripts\LifeManager.cs" Line="52" Column="3" />
-      <File FileName="Assets\Scripts\LiveExploder.cs" Line="11" Column="3" />
+      <File FileName="Assets\Scripts\AsteroidSpawn.cs" Line="10" Column="38" />
+      <File FileName="Assets\Scripts\RandomSpawnX.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\LifeManager.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -34,10 +34,6 @@ public class LifeManager : MonoBehaviour {
 			Time.timeScale = 0;
 		}
 
-		if (activated == true) {
-			gameObject.SetActive (true);
-		}
-
 		theText.text = "x " + lifeCounter;
 	}
 
