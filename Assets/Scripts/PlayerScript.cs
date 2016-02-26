@@ -20,10 +20,10 @@ public class PlayerScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		x = Input.GetAxis ("Horizontal");
-		//y = Input.GetAxis ("Vertical");
+		y = Input.GetAxis ("Vertical");
 
 		transform.position = transform.position +
-			new Vector3 (x * speed, 0, 0);
+			new Vector3 (x * speed, y * speed, 0);
 		
 	}
 
