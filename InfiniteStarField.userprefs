@@ -1,16 +1,19 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AsteroidDetector.cs">
     <Files>
-      <File FileName="Assets\Scripts\PlayerScript.cs" Line="23" Column="34" />
-      <File FileName="Assets\Scripts\MainMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AsteroidDetector.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\UIScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AsteroidSpawn.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\RandomSpawnX.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\LifeManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ContactExplosion.cs" Line="1" Column="1" />
-      <File FileName="Assets\SecondGameOverScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AsteroidDetector.cs" Line="1" Column="56" />
+      <File FileName="Assets\Scripts\AsteroidSpawn.cs" Line="6" Column="31" />
+      <File FileName="Assets\Scripts\ContactExplosion.cs" Line="1" Column="51" />
+      <File FileName="Assets\Scripts\LifeManager.cs" Line="1" Column="103" />
+      <File FileName="Assets\Scripts\MainMenu.cs" Line="1" Column="36" />
+      <File FileName="Assets\Scripts\PlayerScript.cs" Line="1" Column="31" />
+      <File FileName="Assets\Scripts\RandomSpawnX.cs" Line="1" Column="96" />
+      <File FileName="Assets\Scripts\RotationScript.cs" Line="33" Column="88" />
+      <File FileName="Assets\Scripts\ScoreTracker.cs" Line="1" Column="9" />
+      <File FileName="Assets\Scripts\Scroll.cs" Line="22" Column="83" />
+      <File FileName="Assets\Scripts\SmokeFade.cs" Line="1" Column="60" />
+      <File FileName="Assets\Scripts\UIScript.cs" Line="1" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

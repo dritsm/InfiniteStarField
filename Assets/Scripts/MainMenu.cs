@@ -1,15 +1,16 @@
-﻿using UnityEngine;
+﻿//Controls function of menu buttons
+
+using UnityEngine;
 using System.Collections;
 
-public class MainMenu : MonoBehaviour {
-
+public class MainMenu : MonoBehaviour 
+{
 	public string startLevel;
 
 	public void PlayAgain()
 	{
 		Debug.Log ("New Game started");
 		Application.LoadLevel (startLevel);
-
 	}
 
 	public void ExitGame()

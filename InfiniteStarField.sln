@@ -1,7 +1,7 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{898D30D0-1D59-E13D-C04A-4712FFC2C622}") = "InfiniteStarField", "Assembly-CSharp.csproj", "{D1A86F13-7F37-E845-9AC9-F258A7C7F438}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfiniteStarField", "Assembly-CSharp.csproj", "{D1A86F13-7F37-E845-9AC9-F258A7C7F438}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

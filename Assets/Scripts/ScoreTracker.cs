@@ -1,20 +1,13 @@
-﻿using UnityEngine;
+﻿//Tells the canvas to update the score
+
+using UnityEngine;
 using System.Collections;
 
-public class ScoreTracker : MonoBehaviour {
-
+public class ScoreTracker : MonoBehaviour 
+{
 	public UIScript uiCanvas;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
-
+	//On contact with gameObject, do this function once
 	void OnTriggerEnter2D (Collider2D other)
 	{
 		if (other.gameObject.tag == "Respawn") 

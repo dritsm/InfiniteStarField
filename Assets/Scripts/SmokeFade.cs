@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿//This script allows an object to fade to nothing over time
+
+using UnityEngine;
 using System.Collections;
 
 public class SmokeFade : MonoBehaviour 
@@ -8,7 +10,6 @@ public class SmokeFade : MonoBehaviour
 
 	private SpriteRenderer spriteRenderer;
 	private AudioSource boomSound;
-
 
 	// Use this for initialization
 	void Start () 

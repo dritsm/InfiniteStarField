@@ -1,28 +1,22 @@
-﻿using UnityEngine;
+﻿//Detects if an asteroid passes through this gameobject and decrements the player's life count
+
+using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 
-public class AsteroidDetector : MonoBehaviour {
+public class AsteroidDetector : MonoBehaviour 
+{
 	private LifeManager lifeSystem;
 
 	// Use this for initialization
-	void Start () {
-		
+	void Start () 
+	{
 		lifeSystem = FindObjectOfType<LifeManager> ();
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+	}//end start
 
-	void OnTriggerEnter2D (Collider2D other){
-	
-		if (other.gameObject.tag == "Respawn") {
-			
-				lifeSystem.takeLife ();
-		}
-		
-	}
-}
+	//On contact with specific gameobject, perform this once
+	void OnTriggerEnter2D (Collider2D other)
+	{
+		if (other.gameObject.tag == "Respawn") { lifeSystem.takeLife (); }
+	}//end trigger
+}//end class

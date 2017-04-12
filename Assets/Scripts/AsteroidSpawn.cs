@@ -3,34 +3,30 @@ using System.Collections;
 
 public class AsteroidSpawn : MonoBehaviour 
 {
-	float time = 0;
+	private static float waitTime = .77f;
+	private float time = 0;
+
+	private Transform AsteroidSpawnLocation;
+	private GameObject asteroidClone;
 
 	public GameObject asteroid;
-
-	private static float WAIT_TIME = .77f;
-	private Transform AsteroidSpawnLocation;
-
-	GameObject asteroidClone;
 
 	// Use this for initialization
 	void Start () 
 	{
 		AsteroidSpawnLocation = transform.parent;
-	}
+	}//end start
 	
 	// Update is called once per frame
 	void Update ()
 	{
+		time += Time.deltaTime;//increment time with real time
 
-		time += Time.deltaTime;
-
-		if (time > WAIT_TIME) 
+		if (time > waitTime) 
 		{
+			//Create new gameObject from prehab
 			asteroidClone =	Instantiate (asteroid, transform.position, transform.rotation) as GameObject;
 			time = 0;
 		}
-
-
-
-	}
-}
+	}//end update
+}//end class
